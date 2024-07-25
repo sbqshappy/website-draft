@@ -1,0 +1,23 @@
+/*Default layout:1160px*/
+.main{
+	width:1000px;
+}
+
+/*Tablet layout:868px*/
+@media only screen and (min-width: 868px) and (max-width: 991px){
+.main {
+	width: 750px;
+}
+}
+/*Mobile layout:320px*/
+@media only screen and (max-width: 991px){
+.main {
+	width: 300px;
+}
+}
+/*Wide mobile layout:489px*/
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.main {
+	width: 480px;
+}
+}
